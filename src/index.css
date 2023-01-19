@@ -247,22 +247,18 @@ code {
   .profile-box {
     width: 15rem;
     height: 12rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .icon-arrow {
     font-size: 1.75rem;
   }
   .details {
-    margin-top: 2rem;
     gap: 1rem;
     font-size: 1.25rem;
     padding: 0.5rem;
-    border: 2px solid var(--primary-green-light);
-    border-radius: 0.5rem;
   }
   .profile-overlay::before {
-    height: 70%;
-    border-radius: 0.5rem 0.5rem 0 0;
+    height: 0%;
   }
 }
