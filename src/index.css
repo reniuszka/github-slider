@@ -241,3 +241,10 @@ code {
     height: 5em;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .profile-box {
+    width: 20rem;
+    height: 20rem;
+  }
+}
