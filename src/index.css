@@ -261,4 +261,7 @@ code {
   .profile-overlay::before {
     height: 0%;
   }
+  .profile-container {
+    gap: 1.75rem;
+  }
 }
