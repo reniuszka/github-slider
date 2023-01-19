@@ -89,6 +89,7 @@ code {
   top: 0;
   height: 100%;
   width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .profile-overlay::before,
@@ -99,7 +100,7 @@ code {
   height: 50%;
   width: 100%;
   background-color: var(--white);
-  border-radius: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .profile-overlay::after {
@@ -246,6 +247,7 @@ code {
   .profile-box {
     width: 15rem;
     height: 12rem;
+    margin-bottom: 3rem;
   }
 
   .icon-arrow {
