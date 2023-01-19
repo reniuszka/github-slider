@@ -261,4 +261,8 @@ code {
     border: 2px solid var(--primary-green-light);
     border-radius: 0.5rem;
   }
+  .profile-overlay::before {
+    height: 70%;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
 }
